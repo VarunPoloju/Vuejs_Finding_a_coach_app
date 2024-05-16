@@ -27,7 +27,7 @@ export default {
           lastName: 'Poloju',
           areas: ['frontend', 'career'],
           description:
-            'I am Traun and as a senior developer in a big tech company, I can help you get your first job or progress in your current role.',
+            'I am Tharun and as a senior developer in a big tech company, I can help you get your first job or progress in your current role.',
           hourlyRate: 30,
         },
       ],

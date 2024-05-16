@@ -12,7 +12,7 @@
 
 
 
-<style>
+<style scoped>
 
 header {
   width: 100%;
