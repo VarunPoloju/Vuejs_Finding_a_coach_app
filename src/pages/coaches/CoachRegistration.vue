@@ -19,6 +19,5 @@ export default {
       this.$router.replace('/coaches');
     },
   },
- 
 };
 </script>
