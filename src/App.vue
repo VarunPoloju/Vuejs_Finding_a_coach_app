@@ -15,6 +15,18 @@ export default {
   created() {
     this.$store.dispatch('tryLogin');
   },
+  computed: {
+    didAutoLogout() {
+      return this.$store.getters.didAutoLogout;
+    },
+  },
+  watch: {
+    didAutoLogout(currentval, oldVal) {
+      if (currentval && currentval !== oldVal) {
+        this.$router.replace('/coaches');
+      }
+    },
+  },
 };
 </script>
 
